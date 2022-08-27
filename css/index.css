@@ -1,0 +1,94 @@
+nav {
+  display: flex;
+}
+.img-container {
+  flex-basis: 20%;
+  margin: 10px;
+}
+.img-fix {
+  width: 100px;
+}
+.nav-items {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-div {
+  flex-basis: 20%;
+  margin: 15px;
+  text-align: right;
+}
+.nav-item {
+  margin-left: 50px;
+}
+.signin-btn {
+  width: 100px;
+  padding: 5px;
+  border-radius: 18px;
+  background-color: #965cf2;
+  border: 1px solid #965cf2;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    #965cf2 0,
+    #bb6cea 20%,
+    #f886dd 50%
+  );
+}
+.learn-more-btn {
+  width: 150px;
+  padding: 8px;
+  border-radius: 18px;
+  background-color: #965cf2;
+  border: 1px solid #965cf2;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    #965cf2 0,
+    #bb6cea 20%,
+    #f886dd 50%
+  );
+}
+.vector-dot {
+  position: absolute;
+  top: 100px;
+}
+.vector-img {
+  position: absolute;
+  top: 100px;
+}
+.intro-section {
+  display: flex;
+}
+.left-section {
+  flex-basis: 50%;
+  margin: 10px;
+  margin-top: 120px;
+}
+.imgs-div {
+  flex-basis: 50%;
+  background-color: #EEBDF1;
+  transform: skewX(6deg);
+ 
+}
+h1 {
+  font-size: 3rem;
+  color: #3f4894;
+  font-weight: 900;
+}
+h4 {
+  font-size: 15px;
+  color: #727593;
+  line-height: 26px;
+  width: 70%;
+
+}
+h5{
+  color: #5E569A;
+  font-size: 16px;
+}
+
+body{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
